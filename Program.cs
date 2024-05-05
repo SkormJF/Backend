@@ -1,11 +1,40 @@
+using Backend.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//configuration
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//services database
+builder.Services.AddDbContext<BlockDeNotas>(options =>
+options.UseMySql(
+    builder.Configuration.GetConnectionString("MySqlConnetion"),
+    Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.20-mysql")));
+
+//new configuration
+builder.Services.AddControllers();
+
 var app = builder.Build();
+
+app.UseCors("AllowAnyOrigin");
+
+//new configuration
+app.MapControllers();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
