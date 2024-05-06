@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Duvan\\OneDrive\\Desktop\\Backend\\Backend.csproj": {}
+    "C:\\Users\\MattU\\OneDrive\\Escritorio\\SkormJF\\BlockNotas\\Backend\\Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Duvan\\OneDrive\\Desktop\\Backend\\Backend.csproj": {
+    "C:\\Users\\MattU\\OneDrive\\Escritorio\\SkormJF\\BlockNotas\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Duvan\\OneDrive\\Desktop\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\MattU\\OneDrive\\Escritorio\\SkormJF\\BlockNotas\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "C:\\Users\\Duvan\\OneDrive\\Desktop\\Backend\\Backend.csproj",
-        "packagesPath": "C:\\Users\\Duvan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Duvan\\OneDrive\\Desktop\\Backend\\obj\\",
+        "projectPath": "C:\\Users\\MattU\\OneDrive\\Escritorio\\SkormJF\\BlockNotas\\Backend\\Backend.csproj",
+        "packagesPath": "C:\\Users\\MattU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MattU\\OneDrive\\Escritorio\\SkormJF\\BlockNotas\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Duvan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MattU\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
